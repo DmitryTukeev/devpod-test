@@ -6,7 +6,7 @@ set -e
 echo "Updating package lists..."
 sudo apt update
 
-echo "Installing bat and duf..."
+echo "Installing packages"
 # -y ensures the script doesn't pause to ask for user confirmation
 sudo apt install -y fastfetch
 
